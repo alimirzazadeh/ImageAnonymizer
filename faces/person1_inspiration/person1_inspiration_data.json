@@ -1,0 +1,38 @@
+{
+  "person1_inspiration": [
+    127.17085266113281
+  ],
+  "Barycenter": {
+    "meanDist": 0.0,
+    "stdAngles": NaN,
+    "meanAngles": 1.0000001192092896
+  },
+  "kwargs": {
+    "evaluation_name": "inspirational_generation",
+    "no_vis": false,
+    "np_vis": false,
+    "module": "PGAN",
+    "name": "celeba.pth",
+    "dir": "output_networks",
+    "iter": null,
+    "scale": null,
+    "config": null,
+    "partition_value": null,
+    "statsFile": null,
+    "featureExtractor": [
+      "test"
+    ],
+    "inputImage": "faces/person1.jpeg",
+    "nRuns": 1,
+    "learningRate": 1,
+    "suffix": "inspiration",
+    "lambdaD": 0.03,
+    "nSteps": 10,
+    "weights": null,
+    "gradient_descent": false,
+    "random_search": false,
+    "size": 128,
+    "nevergrad": null,
+    "save_descent": false
+  }
+}
